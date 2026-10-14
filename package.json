@@ -1,0 +1,26 @@
+{
+  "name": "codex-statusbar",
+  "displayName": "Codex Status Bar",
+  "description": "Shows Codex context %, 5-hour %, weekly % and model in the VS Code status bar, color-coded.",
+  "version": "1.0.0",
+  "publisher": "itscleverszn",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itscleverszn-alt/codex-statusbar"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "files": [
+    "extension.js",
+    "lib.js"
+  ]
+}
